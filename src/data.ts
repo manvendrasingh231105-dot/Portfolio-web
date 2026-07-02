@@ -76,7 +76,7 @@ export const resumeData: ResumeData = {
       link: "https://github.com/manvendrasingh231105-dot/crop-weed-detection-model"
     },
     {
-      title: "Amigo [Under Development]",
+      title: "Amigo",
       description: "Building an immersive collaborative tool integrating context-aware real-time chat nodes, AI agent workflows, and unified collaborative workspaces. Actively deployed in continuous integration for user experience testing.",
       link: "https://amigo-2vl3y1v6q-manvendrasingh231105-4649s-projects.vercel.app/"
     },
