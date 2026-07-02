@@ -477,31 +477,12 @@ export default function ProjectsShowcase() {
             return (
               <div 
                 key={idx} 
-                className={`p-6 rounded-3xl bg-white border transition-all duration-300 hover:shadow-md hover:border-zinc-900 relative overflow-hidden flex flex-col justify-between ${
-                  isUnderDev ? "border-amber-250 bg-amber-50/10 hover:shadow-amber-50" : "border-zinc-200"
-                }`}
+                className="p-6 rounded-3xl bg-white border border-zinc-200 transition-all duration-300 hover:shadow-md hover:border-zinc-900 flex flex-col justify-between"
               >
-                {isUnderDev && (
-                  <div className="absolute top-0 right-0 bg-amber-500 text-white font-mono text-[8px] uppercase tracking-wider px-3 py-1 rounded-bl-xl font-black animate-pulse">
-                    DEVELOPMENT CONTEXT AVAILABLE
-                  </div>
-                )}
-                
                 <div className="space-y-2.5">
-                  <div className="flex justify-between items-start">
-                    <span className={`text-[10px] font-mono tracking-wider uppercase font-bold px-2.5 py-0.5 rounded-full ${
-                      isUnderDev 
-                        ? "bg-amber-100 text-amber-800 border border-amber-200" 
-                        : "bg-zinc-100 text-zinc-800 border border-zinc-200"
-                    }`}>
-                      {isUnderDev ? "Pre-Release Active" : "Repository Release"}
-                    </span>
-                  </div>
-
                   <h4 className="text-base font-black tracking-tight text-zinc-900 leading-snug">
                     {project.title}
                   </h4>
-
                   <p className="text-zinc-600 text-xs leading-relaxed">
                     {project.description}
                   </p>
