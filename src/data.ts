@@ -78,7 +78,7 @@ export const resumeData: ResumeData = {
     {
       title: "Amigo [Under Development]",
       description: "Building an immersive collaborative tool integrating context-aware real-time chat nodes, AI agent workflows, and unified collaborative workspaces. Actively deployed in continuous integration for user experience testing.",
-      link: "https://ais-dev-drmx27h4d3rdm5bkxg3aef-290290724649.asia-east1.run.app"
+      link: "https://amigo-2vl3y1v6q-manvendrasingh231105-4649s-projects.vercel.app/"
     },
     {
       title: "Face-Recognition Attendance System",
