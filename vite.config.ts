@@ -8,7 +8,7 @@ export default defineConfig(({mode}) => {
   const isProduction = mode === 'production';
 
   return {
-    base: isProduction ? '/Portfolio-web/' : '/',
+    base: isProduction ? './' : '/',
     plugins: [react(), tailwindcss()],
     define: {
       'process.env.GEMINI_API_KEY': JSON.stringify(env.GEMINI_API_KEY),
